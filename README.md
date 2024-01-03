@@ -17,7 +17,7 @@ The app allows you to do the following:
 ## Backend
 Used Java and Spring Boot for building the back-end server using the following:
 - Spring Data: mainly utilizing the JPA repo, JPQL and native queries when needed
-- Spring REST: create RESTful APIs to facilitate communication future front-end part.
+- Spring REST: create RESTful APIs to facilitate communication to future front-end part.
 - Spring MVC
 
 ## Dependencies
