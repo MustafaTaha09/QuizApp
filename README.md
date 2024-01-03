@@ -1,9 +1,9 @@
 # QuizApp
 ## Introduction
-A back-end Quiz Application that allows you to create a list of random questions and submit your answers accordingly.
-Develop using the spring framework and MySQL database.
-Validation through every API request was implemented using Response Entity to handle HTTP requests effeciently
-Project is still in early stages of development.
+-A back-end Quiz Application that allows you to create a list of random questions and submit your answers accordingly.
+-Develop using the spring framework and MySQL database.
+-Validation through every API request was implemented using Response Entity to handle HTTP requests effeciently
+-Project is still in early stages of development.
 
 ## Features
 The app allows you to do the following:
