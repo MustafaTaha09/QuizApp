@@ -2,17 +2,17 @@
 ## Introduction
 - A back-end Quiz Application that allows you to create a quiz contained of random questions and submit your answers accordingly.
 - Develop using Java, the spring framework and MySQL database.
-- Validation through every API request was implemented using Response Entity to handle HTTP requests effeciently
+- Validation through every API request was implemented using Response Entity to handle HTTP requests effeciently.
 - Project is still in early stages of development.
 
 ## Features
 The app allows you to do the following:
 - Perform all CRUD operations on all questions
-- Create a quiz based on difficulty level  
+- Create a quiz based on difficulty level
 - Create a quiz picking random limited number from the DB
 - Submit User answers
 - Calculate & Display the score based on user's answers 
-- Validation on every RESTful API request using Response Entity.
+- Validation on every RESTful API request using Response Entity
 
 ## Backend
 Used Java and Spring Boot for building the back-end server using the following:
@@ -25,6 +25,11 @@ Used Java and Spring Boot for building the back-end server using the following:
 - Embedded Tomcat server
 - MySQL Database
 - Maven
+
+### Design Patterns used
+- Dependency Injection
+- DAO (Data Access Object)
+- MVC
 
 
 
