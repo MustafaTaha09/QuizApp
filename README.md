@@ -26,7 +26,7 @@ Used Java and Spring Boot for building the back-end server using the following:
 - MySQL Database
 - Maven
 
-### Design Patterns used
+### Design Patterns
 - Dependency Injection
 - DAO (Data Access Object)
 - MVC
