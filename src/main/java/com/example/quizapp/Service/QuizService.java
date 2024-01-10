@@ -38,22 +38,22 @@ public class QuizService {
         return new ResponseEntity<>("Quiz ID: " + quiz.getId() + " Were created based on DifficultyLevel: " + diffLevel, HttpStatus.CREATED);
     }
 
-    public ResponseEntity<List<QuestionWrapper>> getQuizQuestionsById(Integer id) {
-        Optional<Quiz> quiz = quizRepository.findById(id);
-        if (quiz.isPresent()) {
-            List<Question> questionsFromDB = quiz.get().getQuestions();
-            List<QuestionWrapper> questionsToUser = new ArrayList<>();
-            for(Question q : questionsFromDB){
-                QuestionWrapper qw = new QuestionWrapper(q.getId(), q.getQuestionTitle(), q.getOption1(), q.getOption2(), q.getOption3(), q.getOption4());
-                questionsToUser.add(qw);
-            }
-            return new ResponseEntity<>(questionsToUser, HttpStatus.OK);
-        }
-        System.err.println("Quiz of ID: " + id + " Doesn't exist!");
-        return new ResponseEntity<>(new ArrayList<>(), HttpStatus.BAD_REQUEST);
-
-
-    }
+//    public ResponseEntity<List<QuestionWrapper>> getQuizQuestionsById(Integer id) {
+//        Optional<Quiz> quiz = quizRepository.findById(id);
+//        if (quiz.isPresent()) {
+//            List<Question> questionsFromDB = quiz.get().getQuestions();
+//            List<QuestionWrapper> questionsToUser = new ArrayList<>();
+//            for(Question q : questionsFromDB){
+//                QuestionWrapper qw = new QuestionWrapper(q.getId(), q.getQuestionTitle(), q.getOption1(), q.getOption2(), q.getOption3(), q.getOption4());
+//                questionsToUser.add(qw);
+//            }
+//            return new ResponseEntity<>(questionsToUser, HttpStatus.OK);
+//        }
+//        System.err.println("Quiz of ID: " + id + " Doesn't exist!");
+//        return new ResponseEntity<>(new ArrayList<>(), HttpStatus.BAD_REQUEST);
+//
+//
+//    }
 
     //Calculating the Answers submitted by the user
     public ResponseEntity<Float> calculateResponse(Integer id, List<Response> responses) {

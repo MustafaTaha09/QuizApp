@@ -29,10 +29,10 @@ public class QuizController {
         return quizService.createQuizByDifficultyLevel(diffLevel, numQ, title);
     }
 
-    @GetMapping("/getQuiz/{id}")
-    public ResponseEntity<List<QuestionWrapper>> getQuizQuestionsById(@PathVariable("id") Integer id) {
-        return quizService.getQuizQuestionsById(id);
-    }
+//    @GetMapping("/getQuiz/{id}")
+//    public ResponseEntity<List<QuestionWrapper>> getQuizQuestionsById(@PathVariable("id") Integer id) {
+//        return quizService.getQuizQuestionsById(id);
+//    }
 
     @PostMapping("/submit/{id}")
     public ResponseEntity<Float> submitResponse(@PathVariable("id") Integer id,
