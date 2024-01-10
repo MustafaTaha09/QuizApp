@@ -18,7 +18,7 @@ The app allows you to do the following:
 ## Backend
 Used Java and Spring Boot for building the back-end server using the following:
 - Spring Data JPA: mainly utilizing the JPA repo, JPQL and native queries when needed
-- Spring Data REST: Reduce boiler plate code
+- Spring Data REST: Reduce boiler plate code by automatically creating endpoints
 - Spring Security: URI restriction to certain users based on their roles.
 - Spring boot: Create specific RESTful APIs to facilitate communication to future front-end part.
 - Spring MVC
