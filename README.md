@@ -3,7 +3,7 @@
 - A back-end Quiz Application that allows you to create a quiz contained of random questions and submit your answers accordingly then calculate your answer.
 - Developed using Java, the spring framework and MySQL database.
 - Validation through every API request was implemented using Response Entity to handle HTTP requests effeciently.
-- Authentication of users based on their given roles in the DB using JDBC Auth.
+- Authentication of users based on their given roles(Employee, Manager, Admin) in the DB using JDBC Auth.
 - Project is still in early stages of development.
 
 ## Features
