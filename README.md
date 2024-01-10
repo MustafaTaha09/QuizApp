@@ -1,13 +1,13 @@
 # QuizApp
 ## Introduction
-- A back-end Quiz Application that allows you to create a quiz contained of random questions and submit your answers accordingly.
-- Develop using Java, the spring framework and MySQL database.
+- A back-end Quiz Application that allows you to create a quiz contained of random questions and submit your answers accordingly then calculate your answer.
+- Developed using Java, the spring framework and MySQL database.
 - Validation through every API request was implemented using Response Entity to handle HTTP requests effeciently.
 - Project is still in early stages of development.
 
 ## Features
 The app allows you to do the following:
-- Perform all CRUD operations on all questions
+- Perform all CRUD operations on all questions using Spring Data REST
 - Create a quiz based on difficulty level
 - Create a quiz picking random limited number from the DB
 - Submit User answers
@@ -16,8 +16,9 @@ The app allows you to do the following:
 
 ## Backend
 Used Java and Spring Boot for building the back-end server using the following:
-- Spring Data: mainly utilizing the JPA repo, JPQL and native queries when needed
-- Spring REST: create RESTful APIs to facilitate communication to future front-end part.
+- Spring Data JPA: mainly utilizing the JPA repo, JPQL and native queries when needed
+- Spring Data REST: Reduce boiler plate code
+- Spring boot: Create specific RESTful APIs to facilitate communication to future front-end part.
 - Spring MVC
 
 ## Dependencies
